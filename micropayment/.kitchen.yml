@@ -24,8 +24,6 @@ platforms:
 
 suites:
   - name: default
-    run_list:
-      - recipe[learn_chef_iis::default]
     verifier:
       inspec_tests:
         - test/integration/default
